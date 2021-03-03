@@ -34,7 +34,7 @@ else
 	fi
 	PS1="$PS1"'\[\033[0m\]'        # change color
 	PS1="$PS1"''                 # new line
-	PS1="$PS1"' ⚡  '                 # prompt: always ⚡
+	PS1="$PS1"' ⚡ '                 # prompt: always ⚡
 fi
 
 MSYS2_PS1="$PS1"               # for detection by MSYS2 SDK's bash.basrc
